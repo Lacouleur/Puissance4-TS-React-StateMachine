@@ -1,15 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.js'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.js";
+import { GameContextProvider } from "./hooks/useGame.js";
 
-
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
-
-
+    <GameContextProvider>
+      <App />
+    </GameContextProvider>
+  </React.StrictMode>
+);
 
 /*
 import { GameMachine, GameModel } from './machine/gameMachine.js'
