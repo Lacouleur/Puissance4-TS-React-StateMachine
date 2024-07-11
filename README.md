@@ -1,3 +1,11 @@
+## PUSSANCE 4
+
+En suivant plusieurs tutoriels je cherchais à comprendre le fonctionnement des machines à états c'est donc ce qui est mis en place dans ce repos.
+J'ai aussi utilisé Typescript avec lequel je commence à lier quelques affinités, mais mon savoir dans cette discipline reste incomplet. 
+
+La prochaine étape de ce projet sera d'ajouter un serveur node JS
+
+
 ## Objectif
 
 L'objectif du projet est de créer un jeu de puissance 4 connecté ou 2 joueurs peuvent se défier.
@@ -22,9 +30,9 @@ L'objectif du projet est de créer un jeu de puissance 4 connecté ou 2 joueurs 
 
 ## Etapes
 
-- Machine à état (tester tant que possible)
-- Interface
-- Jeu hors ligne
+- Machine à état (tester tant que possible) -> DONE
+- Interface -> DONE
+- Jeu hors ligne -> DONE
 - Mise en place du serveur *
 - Jeu en ligne *
 - Mise en ligne (déploiement)
